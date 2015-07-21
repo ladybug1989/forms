@@ -6,12 +6,12 @@
   = javascript_include_tag 'application', 'data-turbolinks-track' => true 
   = csrf_meta_tags 
   %body
-    %header
+    %header.main_header
       #logo
         %p Berlin's Rails forum
       #buttons
         = link_to "New Post", new_post_path
-        
+
     .wrapper
       %p.notice= notice
       %p.alert= alert 
