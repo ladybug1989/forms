@@ -43,22 +43,23 @@
   float: left;
 }
 
-/*.main_header #logo a {
+.main_header logo a {
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: -1px;
   font-size: 1.25em;
   text-decoration: none;
-  color: #397CAC;
-}*/
-.main_header #logo p{
-  text-transform: uppercase;
-  font-weight: bold;
-  letter-spacing: -1px;
-  font-size: 1.25em;
-  text-decoration: none;
-  color: #FF3283;/* pink */
+  color: green;
 }
+/*.main_header #logo p{
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: -1px;
+  font-size: 2em;
+  text-decoration: none;
+  color: #FF3283;/* pink 
+}*/
+*/
 .main_header #buttons {
   float: right;
 }
@@ -224,16 +225,15 @@
 }
 
 #post_content h1 {
-  font-weight: 100;
+  font-weight: bold;
   font-size: 2em;
-  color: #397CAC;
+  color: purple;
   margin-top: 0;
 }
 
 #post_content p {
-  color: #B2BAC2;
-  font-size: 0.9rem;
-  font-weight: 100;
+  color: purple;
+  font-size: 0.9em;
   line-height: 1.5;
 }
 
@@ -292,10 +292,6 @@
   border: 1px solid #d1d1d1;
   border-radius: .2em;
   margin: 1em 0;
-}
-;
-  padding: 2em 5%;
-  border-radius: .5em;
 }
 
 #posts .post {
@@ -412,12 +408,11 @@
 .main_header #logo {
   float: left;
 }
-
+ /* controlls the header name Berlin's rails forms */
 .main_header #logo a {
   text-transform: uppercase;
-  font-weight: 700;
   letter-spacing: -1px;
-  font-size: 5px;
+  font-size: 1.25em;
   text-decoration: none;
   color: purple;
 }
@@ -433,7 +428,7 @@
   border-radius: 0.2em;
   color: white;
   text-decoration: none;
-  font-weight: 100;
+  font-weight: 300;
 }
 .button {
   color: #397CAC;
