@@ -1,0 +1,273 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"fo",
+				"footer	Tag"
+			],
+			[
+				"head",
+				"header	Tag"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"post",
+				"post_params"
+			],
+			[
+				"redi",
+				"redirect_to"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"padding",
+				"padding-left"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "Package Control: in",
+		"selected_items":
+		[
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 457.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/laws/Desktop/sass/sass-example/css/main.css",
+		"/Users/laws/Desktop/sass/sass-example/css/_header.scss",
+		"/Users/laws/Desktop/sass/sass-example/css/main.scss",
+		"/Users/laws/Desktop/sass/sass-example/index.html",
+		"/Users/laws/Desktop/sass/sass-example/.sass-cache/2adf029cb92310a5d6f1e5bbcd8cae5221d0ce71/main.scssc",
+		"/Users/laws/Desktop/forms/app/assets/stylesheets/application.css",
+		"/Users/laws/Desktop/forms/app/views/layouts/application.html.haml",
+		"/Users/laws/Desktop/forms/app/controllers/posts_controller.rb",
+		"/Users/laws/Desktop/forms/app/views/posts/index.html.haml",
+		"/Users/laws/Desktop/PortfolioSite/index.html",
+		"/Users/laws/Desktop/personalwebsite/contact.html",
+		"/Users/laws/Desktop/personalwebsite/about.html",
+		"/Users/laws/Desktop/personalwebsite/styles.css",
+		"/Users/laws/Desktop/forum/app/views/layouts/application.html.erb",
+		"/Users/laws/Desktop/responsivesite/rsite.html",
+		"/Users/laws/Desktop/ACME/acme.html",
+		"/Users/laws/Desktop/responsive.html ",
+		"/Users/laws/Desktop/forms/app/views/layouts/application.html.haml.rhtml",
+		"/Users/laws/Desktop/forms/config/routes.rb",
+		"/Users/laws/Desktop/forms/app/models/user.rb",
+		"/Users/laws/Desktop/forms/app/models/post.rb",
+		"/Users/laws/Desktop/git_auth/app/controllers/users_controller.rb",
+		"/Users/laws/Desktop/git_auth/Gemfile",
+		"/Users/laws/Desktop/forms/app/views/layouts/application.html.erb",
+		"/Users/laws/Desktop/forms/config/environments/development.rb",
+		"/Users/laws/Desktop/forms/app/views/posts/show.html.haml",
+		"/Users/laws/Desktop/forms/app/views/posts/new.html.haml",
+		"/Users/laws/Desktop/forms/app/views/posts/edit.html.haml",
+		"/Users/laws/Desktop/project/app/models/user.rb",
+		"/Users/laws/Desktop/project/app/views/home/index.html.erb",
+		"/Users/laws/Desktop/project/app/views/sessions/new.html.erb",
+		"/Users/laws/Desktop/project/app/controllers/users_controllers.rb",
+		"/Users/laws/Desktop/project/app/views/layouts/application.html.erb",
+		"/Users/laws/Desktop/project/app/controllers/application_controller.rb",
+		"/Users/laws/Desktop/project/app/controllers/sessions_controller.rb",
+		"/Users/laws/Desktop/project/app/controllers/home_controller.rb",
+		"/Users/laws/Desktop/project/Gemfile",
+		"/Users/laws/Desktop/project/config/routes.rb",
+		"/Users/laws/Desktop/project/app/controllers/users/new.html.erb",
+		"/Users/laws/Desktop/forms/app/views/posts/_form.html.haml",
+		"/Users/laws/Desktop/forms/Gemfile",
+		"/Users/laws/Desktop/BLOG/blog/app/assets/stylesheets/application.css.scss.css",
+		"/Users/laws/Desktop/BLOG/blog/app/views/posts/_form.html.erb",
+		"/Users/laws/Desktop/BLOG/blog/app/views/layouts/application.html.erb",
+		"/Users/laws/Desktop/BLOG/blog/app/views/posts/index.html.erb",
+		"/Users/laws/Desktop/BLOG/blog/app/assets/stylesheets/application.css",
+		"/Users/laws/Desktop/act/blog/app/assets/stylesheets/application.css",
+		"/Users/laws/Desktop/Rails projects completed/BLOG/blog/app/views/comments/_comment.html.erb",
+		"/Users/laws/Desktop/Rails projects completed/BLOG/blog/app/controllers/posts_controller.rb",
+		"/Users/laws/Desktop/Blogger/app/views/Blogs/new.html.erb",
+		"/Users/laws/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/laws/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 43.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "application.html.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 254.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
