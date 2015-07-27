@@ -41,373 +41,10 @@
 }
 .main_header #logo {
   float: left;
+
 }
 
-.main_header logo a {
-  text-transform: uppercase;
-  font-weight: bold;
-  letter-spacing: -1px;
-  font-size: 1.25em;
-  text-decoration: none;
-  color: green;
-}
-/*.main_header #logo p{
-  text-transform: uppercase;
-  font-weight: bold;
-  letter-spacing: -1px;
-  font-size: 2em;
-  text-decoration: none;
-  color: #FF3283;/* pink 
-}*/
-*/
-.main_header #buttons {
-  float: right;
-}
 
-.main_header #buttons a {
-  line-height: 60px;
-  background: #397CAC;
-  padding: 0.5em 1em;
-  border-radius: 0.2em;
-  color: white;
-  text-decoration: none;
-  font-weight: 100;
-}
-#posts .post {
-  margin: 1em 0;
-  padding: 1em 0;
-  border-bottom: 1px solid #D1d1d1;
-}
-
-#posts .post .title {
-  margin: 0;
-}
-
-#posts .post .title a {
-  color: purple;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 1.25rem;
-}
-
-#posts .post .date {
-  margin-top: .25rem;
-  font-size: 0.9rem;
-  color: #B2BAC2;
-}
-
-.button {
-  color: #397CAC;
-  border: 1px solid #397CAC;
-  padding: 0.5em 1em;
-  border-radius: 0.2em;
-  text-decoration: none;
-  margin-right: 2%;
-}
-
-#post_content {
-  background: #F2E5F2;
-  padding: 2em 5%;
-  border-radius: .5em;
-}
-
-#post_content h1 {
-  font-weight: 100;
-  font-size: 2em;
-  color: purple;
-  margin-top: 0;
-}
-
-#post_content p {
-  color: #B2BAC2;
-  font-size: 0.9rem;
-  font-weight: 100;
-  line-height: 1.5;
-}
-
-#post_content #comments .comment {
-  border-bottom: 1px solid #d1d1d1;
-  padding-bottom: 1em;
-  margin-bottom: 1em;
-}
-
-#post_content #comments .comment .content {
-  width: 75%;
-  float: left;
-}
-
-#post_content #comments .comment .buttons {
-  width: 25%;
-  float: left;
-  font-size: .8em;
-  text-align: right;
-  padding-top: 1.5em;
-}
-
-#post_content #comments .comment .buttons a {
-  color: #397CAC;
-  border: 1px solid #397CAC;
-  padding: 0.5em 1em;
-  border-radius: 0.2em;
-  text-decoration: none;
-  margin-right: 2%;
-}
-
-#post_content #comments .comment .comment_content {
-  margin: 0;
-  padding: 0;
-}
-
-#post_content #comments .comment .comment_author {
-  color: #397CAC;
-  margin-top: .5rem;
-  font-size: 0.6em;
-  font-weight: 700;
-}
-
-#post_content #comments input[type="submit"] {
-  background: #397CAC;
-  border: none;
-  color: white;
-  font-weight: 100;
-  padding: 0.5em 1em;
-  border-radius: .2em;
-}
-
-#post_content #comments textarea {
-  width: 100%;
-  min-height: 200px;
-  border: 1px solid #d1d1d1;
-  border-radius: .2em;
-  margin: 1em 0;
-}
-
-/*  padding: 2em 5%;
-  border-radius: .5em;
-}*/
-
-#posts .post {
-  margin: 1em 0;
-  padding: 1em 0;
-  border-bottom: 1px solid #D1d1d1;
-}
-
-#posts .post .title {
-  margin: 0;
-}
-
-#posts .post .title a {
-  color: #397CAC;
-  text-decoration: none;
-  font-weight: 100;
-  font-size: 1.25rem;
-}
-
-#posts .post .date {
-  margin-top: .25rem;
-  font-size: 0.9rem;
-  color: #B2BAC2;
-}
-
-.button {
-  color: #397CAC;
-  border: 1px solid #397CAC;
-  padding: 0.5em 1em;
-  border-radius: 0.2em;
-  text-decoration: none;
-  margin-right: 2%;
-}
-
-#post_content {
-  background: white;
-  padding: 2em 5%;
-  border-radius: .5em;
-}
-
-#post_content h1 {
-  font-weight: bold;
-  font-size: 2em;
-  color: purple;
-  margin-top: 0;
-}
-
-#post_content p {
-  color: purple;
-  font-size: 0.9em;
-  line-height: 1.5;
-}
-
-#post_content #comments .comment {
-  border-bottom: 1px solid #d1d1d1;
-  padding-bottom: 1em;
-  margin-bottom: 1em;
-}
-
-#post_content #comments .comment .content {
-  width: 75%;
-  float: left;
-}
-
-#post_content #comments .comment .buttons {
-  width: 25%;
-  float: left;
-  font-size: .8em;
-  text-align: right;
-  padding-top: 1.5em;
-}
-
-#post_content #comments .comment .buttons a {
-  color: #397CAC;
-  border: 1px solid #397CAC;
-  padding: 0.5em 1em;
-  border-radius: 0.2em;
-  text-decoration: none;
-  margin-right: 2%;
-}
-
-#post_content #comments .comment .comment_content {
-  margin: 0;
-  padding: 0;
-}
-
-#post_content #comments .comment .comment_author {
-  color: #397CAC;
-  margin-top: .5rem;
-  font-size: 0.6em;
-  font-weight: 700;
-}
-
-#post_content #comments input[type="submit"] {
-  background: #397CAC;
-  border: none;
-  color: white;
-  font-weight: 100;
-  padding: 0.5em 1em;
-  border-radius: .2em;
-}
-
-#post_content #comments textarea {
-  width: 100%;
-  min-height: 200px;
-  border: 1px solid #d1d1d1;
-  border-radius: .2em;
-  margin: 1em 0;
-}
-
-#posts .post {
-  margin: 1em 0;
-  padding: 1em 0;
-  border-bottom: 1px solid #D1d1d1;
-}
-
-#posts .post .title {
-  margin: 0;
-}
-
-#posts .post .title a {
-  color: #397CAC;
-  text-decoration: none;
-  font-weight: 100;
-  font-size: 1.25rem;
-}
-
-#posts .post .date {
-  margin-top: .25rem;
-  font-size: 0.9rem;
-  color: #B2BAC2;
-}
-
-.button {
-  color: #397CAC;
-  border: 1px solid #397CAC;
-  padding: 0.5em 1em;
-  border-radius: 0.2em;
-  text-decoration: none;
-  margin-right: 2%;
-}
-
-#post_content {
-  background: white;
-  padding: 2em 5%;
-  border-radius: .5em;
-}
-
-#post_content h1 {
-  font-weight: 100;
-  font-size: 2em;
-  color: #397CAC;
-  margin-top: 0;
-}
-
-#post_content p {
-  color: #B2BAC2;
-  font-size: 0.9rem;
-  font-weight: 100;
-  line-height: 1.5;
-}
-
-#post_content #comments .comment {
-  border-bottom: 1px solid #d1d1d1;
-  padding-bottom: 1em;
-  margin-bottom: 1em;
-}
-
-#post_content #comments .comment .content {
-  width: 75%;
-  float: left;
-}
-
-#post_content #comments .comment .buttons {
-  width: 25%;
-  float: left;
-  font-size: .8em;
-  text-align: right;
-  padding-top: 1.5em;
-}
-
-#post_content #comments .comment .buttons a {
-  color: #397CAC;
-  border: 1px solid #397CAC;
-  padding: 0.5em 1em;
-  border-radius: 0.2em;
-  text-decoration: none;
-  margin-right: 2%;
-}
-
-#post_content #comments .comment .comment_content {
-  margin: 0;
-  padding: 0;
-}
-
-#post_content #comments .comment .comment_author {
-  color: #397CAC;
-  margin-top: .5rem;
-  font-size: 0.6em;
-  font-weight: 700;
-}
-
-#post_content #comments input[type="submit"] {
-  background: #397CAC;
-  border: none;
-  color: white;
-  font-weight: 100;
-  padding: 0.5em 1em;
-  border-radius: .2em;
-}
-
-#post_content #comments textarea {
-  width: 100%;
-  min-height: 200px;
-  border: 1px solid #d1d1d1;
-  border-radius: .2em;
-  margin: 1em 0;
-}
-;
-}
-
-.main_header #logo {
-  float: left;
-}
  /* controlls the header name Berlin's rails forms */
 .main_header #logo a {
   text-transform: uppercase;
@@ -431,8 +68,8 @@
   font-weight: 300;
 }
 .button {
-  color: #397CAC;
-  border: 1px solid #397CAC;
+  color: green;
+  border: 1px solid #FF0065;
   padding: 0.5em 1em;
   border-radius: 0.2em;
   text-decoration: none;
@@ -457,16 +94,16 @@
 }
 
 #posts .post .title a {
-  color: #397CAC;
+  color: #FF0065;
   text-decoration: none;
-  font-weight: 100;
-  font-size: 1.25rem;
+  font-weight: bold;
+  font-size: 1.25em;
 }
 
 #posts .post .date {
-  margin-top: .25rem;
-  font-size: 0.9rem;
-  color: #B2BAC2;
+  margin-top: .25em;
+  font-size: 0.9em;
+  color: green;
 }
 
 
@@ -475,23 +112,23 @@
   padding: 2em 5%;
   border-radius: .5em;
 }
-
+/* the header or title of the post */
 #post_content h1 {
-  font-weight: 100;
+  font-weight: bold;
   font-size: 2em;
-  color: #397CAC;
+  color: purple;
   margin-top: 0;
 }
-
+/* this is the color of the text of the post and comments under it */
 #post_content p {
-  color: #B2BAC2;
-  font-size: 0.9rem;
+  color: black;
+  font-size: 1em;
   font-weight: 100;
   line-height: 1.5;
 }
-
+/* the line that separates the comments already posted and comment form */
 #post_content #comments .comment {
-  border-bottom: 1px solid #d1d1d1;
+  border-bottom: 2px solid purple;
   padding-bottom: 1em;
   margin-bottom: 1em;
 }
@@ -510,8 +147,8 @@
 }
 
 #post_content #comments .comment .buttons a {
-  color: #397CAC;
-  border: 1px solid #397CAC;
+  color: green;
+  border: 1px solid #FF0065;
   padding: 0.5em 1em;
   border-radius: 0.2em;
   text-decoration: none;
@@ -522,19 +159,19 @@
   margin: 0;
   padding: 0;
 }
-
+/* this is the author of the comments */
 #post_content #comments .comment .comment_author {
-  color: #397CAC;
-  margin-top: .5rem;
-  font-size: 0.6em;
-  font-weight: 700;
+  color: green;
+  margin-top: .5em;
+  font-size: 1em;
+  font-weight: bold;
 }
 
 #post_content #comments input[type="submit"] {
-  background: #397CAC;
+  background: purple;
   border: none;
   color: white;
-  font-weight: 100;
+  font-weight: bold;
   padding: 0.5em 1em;
   border-radius: .2em;
 }

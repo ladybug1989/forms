@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html></html>
+<head>
+  <title>Berlin's Rails Blog Forum </title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true  %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true  %>
+  <%= csrf_meta_tags  %>
+  <body>
+    <header class="main_header clearfix">
+      <div class="wrapper">
+        <div id="logo">
+          <p>
+            <%= link_to "BERLIN'S RAILS FORUM",root_path %>
+          </p>
+        </div>
+        <div id="buttons">
+          <% if user_signed_in? %>
+            <%= link_to "New Post", new_post_path %>
+          <% else  %>
+            <%= link_to "Sign Up", new_user_registration_path  %>
+            <%= link_to "Sign In", new_user_session_path  %>
+          <% end %>
+        </div>
+      </div>
+    </header>
+    <div class="wrapper">
+      <p class="notice">
+        <%= notice %>
+      </p>
+      <p class="alert">
+        <%= alert  %>
+      </p>
+    </div>
+    <div class="wrapper">
+      <%= yield %>
+    </div>
+  </body>
+</head>
+
+
