@@ -32,21 +32,21 @@
   clear: both;
 }
 
-.main_header {
+.mainheader {
   width: 100%;
   margin: -6px;
   background:white;
   padding: 2em 5%;
   border-radius: .5em;
 }
-.main_header #logo {
+.mainheader #logo {
   float: left;
 
 }
 
 
  /* controlls the header name Berlin's rails forms */
-.main_header #logo a {
+.mainheader #logo a {
   text-transform: uppercase;
   letter-spacing: -1px;
   font-size: 1.25em;
@@ -54,11 +54,11 @@
   color: purple;
 }
 
-.main_header #buttons {
+.mainheader #buttons {
   float: right;
 }
 
-.main_header #buttons a {
+.mainheader #buttons a {
   line-height: 60px;
   background:#800080; /* green */ 
   padding: 0.5em 1em;
@@ -107,38 +107,38 @@
 }
 
 
-#post_content {
+#postcontent {
   background: white;
   padding: 2em 5%;
   border-radius: .5em;
 }
 /* the header or title of the post */
-#post_content h1 {
+#postcontent h1 {
   font-weight: bold;
   font-size: 2em;
   color: purple;
   margin-top: 0;
 }
 /* this is the color of the text of the post and comments under it */
-#post_content p {
+#postcontent p {
   color: black;
   font-size: 1em;
   font-weight: 100;
   line-height: 1.5;
 }
 /* the line that separates the comments already posted and comment form */
-#post_content #comments .comment {
+#postcontent #comments .comment {
   border-bottom: 2px solid purple;
   padding-bottom: 1em;
   margin-bottom: 1em;
 }
 
-#post_content #comments .comment .content {
+#postcontent #comments .comment .content {
   width: 75%;
   float: left;
 }
 
-#post_content #comments .comment .buttons {
+#postcontent #comments .comment .buttons {
   width: 25%;
   float: left;
   font-size: .8em;
@@ -146,7 +146,7 @@
   padding-top: 1.5em;
 }
 
-#post_content #comments .comment .buttons a {
+#postcontent #comments .comment .buttons a {
   color: green;
   border: 1px solid #FF0065;
   padding: 0.5em 1em;
@@ -155,19 +155,19 @@
   margin-right: 2%;
 }
 
-#post_content #comments .comment .comment_content {
+#postcontent #comments .comment .commentcontent {
   margin: 0;
   padding: 0;
 }
 /* this is the author of the comments */
-#post_content #comments .comment .comment_author {
+#postcontent #comments .comment .commentauthor {
   color: green;
   margin-top: .5em;
   font-size: 1em;
   font-weight: bold;
 }
 
-#post_content #comments input[type="submit"] {
+#postcontent #comments input[type="submit"] {
   background: purple;
   border: none;
   color: white;
@@ -176,7 +176,7 @@
   border-radius: .2em;
 }
 
-#post_content #comments textarea {
+#postcontent #comments textarea {
   width: 100%;
   min-height: 200px;
   border: 1px solid #d1d1d1;
