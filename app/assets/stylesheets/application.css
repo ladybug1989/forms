@@ -1,0 +1,186 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ body{
+  background-image: url("tM2Dqxs.gif");
+  background-repeat: repeat;
+ }
+.wrapper {
+  width: 60%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.mainheader {
+  width: 100%;
+  margin: -6px;
+  background:white;
+  padding: 2em 5%;
+  border-radius: .5em;
+}
+.mainheader #logo {
+  float: left;
+
+}
+
+
+ /* controlls the header name Berlin's rails forms */
+.mainheader #logo a {
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-size: 1.25em;
+  text-decoration: none;
+  color: purple;
+}
+
+.mainheader #buttons {
+  float: right;
+}
+
+.mainheader #buttons a {
+  line-height: 60px;
+  background:#800080; /* green */ 
+  padding: 0.5em 1em;
+  border-radius: 0.2em;
+  color: white;
+  text-decoration: none;
+  font-weight: 300;
+}
+.button {
+  color: green;
+  border: 1px solid #FF0065;
+  padding: 0.5em 1em;
+  border-radius: 0.2em;
+  text-decoration: none;
+  margin-right: 2%;
+}
+
+
+#posts {
+  background: white;
+  padding: 2em 5%;
+  border-radius: .5em;
+}
+
+#posts .post {
+  margin: 1em 0;
+  padding: 1em 0;
+  border-bottom: 1px solid #D1d1d1;
+}
+
+#posts .post .title {
+  margin: 0;
+}
+
+#posts .post .title a {
+  color: #FF0065;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.25em;
+}
+
+#posts .post .date {
+  margin-top: .25em;
+  font-size: 0.9em;
+  color: green;
+}
+
+
+#postcontent {
+  background: white;
+  padding: 2em 5%;
+  border-radius: .5em;
+}
+/* the header or title of the post */
+#postcontent h1 {
+  font-weight: bold;
+  font-size: 2em;
+  color: purple;
+  margin-top: 0;
+}
+/* this is the color of the text of the post and comments under it */
+#postcontent p {
+  color: black;
+  font-size: 1em;
+  font-weight: 100;
+  line-height: 1.5;
+}
+/* the line that separates the comments already posted and comment form */
+#postcontent #comments .comment {
+  border-bottom: 2px solid purple;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+}
+
+#postcontent #comments .comment .content {
+  width: 75%;
+  float: left;
+}
+
+#postcontent #comments .comment .buttons {
+  width: 25%;
+  float: left;
+  font-size: .8em;
+  text-align: right;
+  padding-top: 1.5em;
+}
+
+#postcontent #comments .comment .buttons a {
+  color: green;
+  border: 1px solid #FF0065;
+  padding: 0.5em 1em;
+  border-radius: 0.2em;
+  text-decoration: none;
+  margin-right: 2%;
+}
+
+#postcontent #comments .comment .commentcontent {
+  margin: 0;
+  padding: 0;
+}
+/* this is the author of the comments */
+#postcontent #comments .comment .commentauthor {
+  color: green;
+  margin-top: .5em;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+#postcontent #comments input[type="submit"] {
+  background: purple;
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 0.5em 1em;
+  border-radius: .2em;
+}
+
+#postcontent #comments textarea {
+  width: 100%;
+  min-height: 200px;
+  border: 1px solid #d1d1d1;
+  border-radius: .2em;
+  margin: 1em 0;
+}
+
